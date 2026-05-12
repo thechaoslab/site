@@ -1,29 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
 
-{% include head.html %}
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'en' }}" class="no-js" dir="{{ page.direction | default: layout.direction | default: site.direction | default: 'ltr' }}">
+  <head>
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
+  </head>
 
-<body>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html locale=locale %}
+    {% include_cached masthead.html locale=locale %}
 
-  {% if site.data.settings.google-analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
+    </div>
 
-  {% include header.html %}
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html locale=locale %}
+      </div>
+    {% endif %}
 
-  <!-- begin content -->
-  <main class="content" aria-label="Content">
-    {{ content }}
-  </main>
-  <!-- end content -->
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html locale=locale %}
+      </footer>
+    </div>
 
-  <div class="top ion ion-ios-arrow-up" title="Top"></div>
-
-  {% include search.html %}
-
-  {% include footer.html %}
-
-  {% include javascripts.html %}
-</body>
-
+    {% include scripts.html locale=locale %}
+  </body>
 </html>
