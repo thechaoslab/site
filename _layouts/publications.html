@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html locale=locale %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="publications"
+           itemscope itemtype="https://schema.org/CreativeWork"
+           {% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+
+    <section class="page__content" itemprop="text">
+
+      {{ content }}
+
+      <!-- Publications list -->
+      <div class="publications">
+
+        {% for year in site.data.publications %}
+          <div class="pub-year fade-in">
+            <h2>{{ year.year }}</h2>
+
+            <ul class="pub-list">
+              {% for pub in year.items %}
+        		<li class="pub-item fade-in"
+    				style="transition-delay: {{ forloop.index0 | times: 0.08 }}s;">
+
+				  	<span class="pub-authors">{{ pub.authors }}.</span>
+				 	 <span class="pub-title">{{ pub.title }}.</span>
+				  	<span class="pub-venue">{{ pub.venue }}.</span>
+
+				  	{% if pub.year %}
+				    	<span class="pub-year-inline">({{ pub.year }})</span>
+				  	{% endif %}
+
+				  	{% if pub.doi and pub.doi != "" %}
+				    	<span class="pub-doi">
+				      		<a href="{{ pub.doi }}" target="_blank" rel="noopener">
+				        	DOI
+				      		</a>
+				    	</span>
+				  	{% endif %}
+
+				</li>
+              {% endfor %}
+            </ul>
+
+          </div>
+        {% endfor %}
+
+      </div>
+
+    </section>
+  </article>
+</div>
+
+<script src="{{ '/assets/js/fade-in.js' | relative_url }}"></script>

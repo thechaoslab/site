@@ -1,0 +1,145 @@
+/* Publications page styling */
+
+.pub-year {
+  margin-top: 2.5rem;
+}
+
+.pub-year h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-item {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* subtle typographic hierarchy */
+
+.pub-authors {
+  font-weight: 400;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-venue {
+  color: #666;
+}
+
+.pub-year-inline {
+  color: #666;
+  margin-left: 0.25rem;
+}
+
+.pub-doi {
+  margin-left: 0.5rem;
+}
+
+.pub-doi a {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.pub-doi a:hover {
+  border-bottom-color: #000;
+}
+
+.pub-item {
+  margin-bottom: 1.2rem;
+}
+
+.pub-title {
+  font-style: normal;
+}
+
+.pub-item a {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.pub-item a:hover {
+  border-color: #000;
+}
+
+/* Title spacing like splash */
+
+.publications .page__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Year headings */
+
+.pub-year h2 {
+  font-size: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+/* Publication list */
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pub-item {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Typography hierarchy */
+
+.pub-authors {
+  font-weight: 400;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-venue {
+  color: #666;
+}
+
+/* Fade-in base state */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When visible */
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: stagger effect */
+.pub-item {
+  transition-delay: 0.05s;
+}
+
+/* Restore splash-style content width */
+.publications .page__content,
+.publications .splash__content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ensure article doesn't constrain width */
+.publications {
+  width: 100%;
+}

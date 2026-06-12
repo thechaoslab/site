@@ -1,14 +1,8 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "Home"
-  #   url: /
-  # - title: "Participate"
-  #   url: /participate/
-  # - title: "Organisers"
-  #   url: /organisers/
-  # - title: "Portfolio"
-  #   url: /portfolio/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "about"
+    url: /about/
+  - title: "people"
+    url: /people/
+  - title: "publications"
+    url: /publications/

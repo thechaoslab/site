@@ -1,0 +1,34 @@
+# publication info by year
+
+- year: 2026
+  items:
+    - authors: "Authors"
+      title: "Title 1"
+      venue: "Publication info"
+      doi: "https://doi.org/10.xxxx/example1"
+
+    - authors: "Authors"
+      title: "Title 1"
+      venue: "Publication info" 
+      doi: "https://doi.org/10.xxxx/example1"
+
+- year: 2025
+  items:
+    - authors: "Authors"
+      title: "Title 1"
+      venue: "Publication info"
+      doi: "https://doi.org/10.xxxx/example1"      
+
+- year: 2024
+  items:
+    - authors: "Authors"
+      title: "Title 1"
+      venue: "Publication info"
+      doi: "https://doi.org/10.xxxx/example1"      
+
+- year: 2023
+  items:
+    - authors: "Authors"
+      title: "Title 1"
+      venue: "Publication info"
+      doi: "https://doi.org/10.xxxx/example1"      
