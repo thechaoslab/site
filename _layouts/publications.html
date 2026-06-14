@@ -35,17 +35,23 @@ layout: default
 				 	 <span class="pub-title">{{ pub.title }}.</span>
 				  	<span class="pub-venue">{{ pub.venue }}.</span>
 
-				  	{% if pub.year %}
-				    	<span class="pub-year-inline">({{ pub.year }})</span>
-				  	{% endif %}
+				    <span class="pub-year-inline">{{ year.year }}.</span>
 
 				  	{% if pub.doi and pub.doi != "" %}
 				    	<span class="pub-doi">
-				      		<a href="{{ pub.doi }}" target="_blank" rel="noopener">
-				        	DOI
+				      		<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">
+				        	DOI: {{ pub.doi }}
 				      		</a>
 				    	</span>
 				  	{% endif %}
+
+            {% if pub.pdf and pub.pdf != "" %}
+              <span class="pub-pdf"> // 
+                  <a href="https://www.courtneynreed.com/assets/pdf/{{ pub.pdf }}" target="_blank" rel="noopener">
+                  [PDF]
+                  </a>
+              </span>
+            {% endif %}
 
 				</li>
               {% endfor %}

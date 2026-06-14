@@ -5,9 +5,9 @@ permalink: /people/
 author_profile: false
 ---
 <br><br>
-<h2>people</h2>
+<!-- <h2>people</h2> -->
 
-CHAOS is made of >>
+CHAOS is made of...
 
 <b>Courtney N. Reed (she/her)</b> 
 Lecturer (Assistant Professor) // Digital Technologies & Creative Futures

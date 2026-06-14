@@ -2,33 +2,34 @@
 
 - year: 2026
   items:
-    - authors: "Authors"
-      title: "Title 1"
-      venue: "Publication info"
-      doi: "https://doi.org/10.xxxx/example1"
+    - authors: "Courtney N. Reed, Marta Ferreira, Mónica Mendes, Pedro Galvão-Ferreira, Marion Koelle, Alice C Haynes, Fiona Bell, Alexandra Teixeira Riggs, Laia Turmo Vidal, Mathilde Gouin, Vineetha Rallabandi, and Karen Anne Cochrane"
+      title: "In-Situ Seeding: Entangling Place & Technology through Sensory Data Dialogues"
+      venue: "Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '26')"
+      doi: "10.1145/3731459.3774489"
+      pdf: "Reed_TEI26_DataDialogues.pdf"
 
-    - authors: "Authors"
-      title: "Title 1"
-      venue: "Publication info" 
-      doi: "https://doi.org/10.xxxx/example1"
+    # - authors: "Authors"
+    #   title: "Title 1"
+    #   venue: "Publication info" 
+    #   doi: "https://doi.org/10.xxxx/example1"
 
-- year: 2025
-  items:
-    - authors: "Authors"
-      title: "Title 1"
-      venue: "Publication info"
-      doi: "https://doi.org/10.xxxx/example1"      
+# - year: 2025
+#   items:
+#     - authors: "Authors"
+#       title: "Title 1"
+#       venue: "Publication info"
+#       doi: "https://doi.org/10.xxxx/example1"      
 
-- year: 2024
-  items:
-    - authors: "Authors"
-      title: "Title 1"
-      venue: "Publication info"
-      doi: "https://doi.org/10.xxxx/example1"      
+# - year: 2024
+#   items:
+#     - authors: "Authors"
+#       title: "Title 1"
+#       venue: "Publication info"
+#       doi: "https://doi.org/10.xxxx/example1"      
 
-- year: 2023
-  items:
-    - authors: "Authors"
-      title: "Title 1"
-      venue: "Publication info"
-      doi: "https://doi.org/10.xxxx/example1"      
+# - year: 2023
+#   items:
+#     - authors: "Authors"
+#       title: "Title 1"
+#       venue: "Publication info"
+#       doi: "https://doi.org/10.xxxx/example1"      

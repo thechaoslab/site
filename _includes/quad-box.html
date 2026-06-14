@@ -1,0 +1,9 @@
+{% assign shapes = "shape-1,shape-2,shape-3,shape-4" | split: "," %}
+{% assign greens = "green-1,green-2,green-3" | split: "," %}
+
+{% assign shape = shapes | sample %}
+{% assign green = greens | sample %}
+
+<div class="quad-box {{ shape }} {{ green }}">
+  {{ include.content }}
+</div>
