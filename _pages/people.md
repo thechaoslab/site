@@ -9,14 +9,30 @@ author_profile: false
 
 CHAOS is made of...
 
+{% include quad-box.html content="
+<p>
 <b>Courtney N. Reed (she/her)</b> 
-Lecturer (Assistant Professor) // Digital Technologies & Creative Futures
+Lecturer (Assistant Professor) in Digital Technologies & Creative Futures
+</p>
+" %}
 
+{% include quad-box.html content="
+<p>
 <b>Ania Mokrzycka (she/her)</b> 
-PhD Student // Creative Futures
+PhD Student in Creative Futures<br>
+</p>
+" %}
 
+{% include quad-box.html content="
+<p>
 <b>Luiz Ribeiro Fonseca (he/him)</b> 
-PhD Student // Creative Futures
+PhD Student in Creative Futures
+</p>
+" %}
 
+{% include quad-box.html content="
+<p>
 <b>Vitória Croda (she/her)</b>
-PhD Student // Creative Futures
+PhD Student in Creative Futures
+</p>
+" %}

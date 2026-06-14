@@ -32,10 +32,9 @@ layout: default
     				style="transition-delay: {{ forloop.index0 | times: 0.08 }}s;">
 
 				  	<span class="pub-authors">{{ pub.authors }}.</span>
-				 	 <span class="pub-title">{{ pub.title }}.</span>
+            <span class="pub-year">{{ year.year }}.</span>
+				 	  <span class="pub-title">{{ pub.title }}.</span>
 				  	<span class="pub-venue">{{ pub.venue }}.</span>
-
-				    <span class="pub-year-inline">{{ year.year }}.</span>
 
 				  	{% if pub.doi and pub.doi != "" %}
 				    	<span class="pub-doi">
@@ -46,7 +45,7 @@ layout: default
 				  	{% endif %}
 
             {% if pub.pdf and pub.pdf != "" %}
-              <span class="pub-pdf"> // 
+              <span class="pub-pdf"> ✧ 
                   <a href="https://www.courtneynreed.com/assets/pdf/{{ pub.pdf }}" target="_blank" rel="noopener">
                   [PDF]
                   </a>
