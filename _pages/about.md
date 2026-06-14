@@ -17,17 +17,9 @@ author_profile: false
 </p>
 " %}
 
-{% include quad-box.html content="
-<p>
-	When we create with digital technology and implement data-driven systems into creative contexts, there's a delicate balance and collaboration when designing interactions that are simultaneously usable and also leave space for ambiguity and individual meaning-making. Try to encode everything, and we end up reinforcing biases and narrow ways of thinking about creative practice. Leave too many things random, and artists may not be able to make much meaning with tools in their practice.
-</p>
-" %}
+When we create with digital technology and implement data-driven systems into creative contexts, there's a delicate balance and collaboration when designing interactions that are simultaneously usable and also leave space for ambiguity and individual meaning-making. Try to encode everything, and we end up reinforcing biases and narrow ways of thinking about creative practice. Leave too many things random, and artists may not be able to make much meaning with tools in their practice.
 
-{% include quad-box.html content="
-<p>
 The CHAOS Lab works in this space: Our research aims to explore artistic practice - mainly in music and sound - and understand how conceptualisations about creativity are encoded into digital systems and where we can leave room for unpredictability and discovery. We apply feminist and post-human design theories, indigenous thinking, and practice-led research to problem norms in digital design and consider alternative futures. 
-</p>
-" %}
 
 {% include quad-box.html content="
 <p>
