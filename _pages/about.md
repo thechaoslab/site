@@ -23,6 +23,6 @@ The CHAOS Lab works in this space: Our research aims to explore artistic practic
 
 {% include quad-box.html content="
 <p>
-If you must know what the CHAOS acronym stands for, know that we worked backwards and found a good descriptor to fit our name: <b>C</b>omputer-<b>H</b>uman-<b>A</b>mbiguity <b>O</b>ntologies in <b>S</b>ound (and other Senses). <br>That's less important than chaos, though.
+If you must know what the CHAOS acronym stands for, know that we worked backwards and found a good descriptor to fit our name: <b>C</b>omputer-<b>H</b>uman-<b>A</b>mbiguity <b>O</b>ntologies in <b>S</b>ound (and other Senses). <br>That's less important than the chaos itself, though.
 </p>
 " %}
