@@ -4,12 +4,19 @@ title: "people"
 permalink: /people/
 author_profile: false
 ---
+
+
 <br><br>
 <!-- <h2>people</h2> -->
 
 CHAOS is made of...
 
-{% include quad-box.html content="
+{% for person in site.data.people %}
+  {% include person-card.html person=person index=forloop.index0 %}
+{% endfor %}
+
+<!-- 
+
 <p>
 <b>Courtney N. Reed (she/her)</b> 
 Lecturer (Assistant Professor) in Digital Technologies & Creative Futures
@@ -36,3 +43,4 @@ PhD Student in Creative Futures
 PhD Student in Creative Futures
 </p>
 " %}
+ -->

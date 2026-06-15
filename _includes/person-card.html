@@ -1,0 +1,36 @@
+<div class="person-row">
+  
+  <div class="quad-box shape-{{ include.index | modulo: 4 | plus: 1 }} green-{{ include.index | modulo: 3 | plus: 1 }}">
+    <div class="person-text">
+      <h3>{{ person.name }}</h3>
+      <p>{{ person.role }} {% if person.years %}({{ person.years }}){% endif %}</p>
+      <p><b>Interests:</b> {{ person.interests }}</p>
+
+      {% if person.supervisors %}
+        <p><b>Supervisory Team:</b> {{ person.supervisors }}</p>
+      {% endif %}
+
+      {% if person.url %}
+        <a href="{{ person.url }}" target="_blank" class="btn btn--chaos">
+          <i class="fa fa-external-link" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+
+      {% if person.linkedin %}
+        <a href="{{ person.linkedin }}" target="_blank" class="btn btn--linkedin">
+          <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+        </a>
+    {% endif %}
+
+
+
+    </div>
+  </div>
+
+  <div class="person-image">
+    {% if person.image %}
+      <img src="{{ person.image }}" alt="{{ person.name }}">
+    {% endif %}
+  </div>
+
+</div>
