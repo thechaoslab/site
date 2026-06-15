@@ -8,7 +8,7 @@ author_profile: false
 <!-- <h2>chaos</h2> -->
 
 <p>
-	The CHAOS Lab is an interdisciplinary music and arts technology research lab based in Loughborough University London's Institutes for Digital Technologies and Creative Futures. The lab is led by Dr Courtney N Reed; we're a group of artists, musicians, researchers, educators, designers, and activists ... and this is our chaos!
+	The CHAOS Lab is an interdisciplinary music and arts technology research lab based in <a href="https://www.lborolondon.ac.uk/" target="_blank">Loughborough University London</a>'s Institutes for <a href="https://www.lborolondon.ac.uk/about/institutes/digital-technologies/" target="_blank">Digital Technologies</a> and <a href="https://www.lborolondon.ac.uk/about/institutes/creative-futures/" target="_blank">Creative Futures</a>. The lab is led by Dr Courtney N Reed; we're a group of artists, musicians, researchers, educators, designers, and activists ... and this is our chaos!
 </p>
 
 {% include quad-box.html content="
@@ -23,6 +23,6 @@ The CHAOS Lab works in this space: Our research aims to explore artistic practic
 
 {% include quad-box.html content="
 <p>
-If you must know what the CHAOS acronym stands for, know that we worked backwards and found a good descriptor to fit our name: Computer-Human-Ambiguity Ontologies in Sound (and other Senses). <br>That's less important than chaos, though.
+If you must know what the CHAOS acronym stands for, know that we worked backwards and found a good descriptor to fit our name: <b>C</b>omputer-<b>H</b>uman-<b>A</b>mbiguity <b>O</b>ntologies in <b>S</b>ound (and other Senses). <br>That's less important than chaos, though.
 </p>
 " %}
