@@ -21,6 +21,8 @@ When we create with digital technology and implement data-driven systems into cr
 
 The CHAOS Lab works in this space: Our research aims to explore artistic practice - mainly in music and sound - and understand how conceptualisations about creativity are encoded into digital systems and where we can leave room for unpredictability and discovery. We apply feminist and post-human design theories, indigenous thinking, and practice-led research to problem norms in digital design and consider alternative futures. 
 
+We're based in London, UK. We also actively collaborate with artists and researchers in Germany and Brazil.
+
 {% include quad-box.html content="
 <p>
 If you must know what the CHAOS acronym stands for, know that we worked backwards and found a good descriptor to fit our name: <b>C</b>omputer-<b>H</b>uman-<b>A</b>mbiguity <b>O</b>ntologies in <b>S</b>ound (and other Senses). <br>That's less important than the chaos itself, though.
