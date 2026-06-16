@@ -2,16 +2,54 @@
 
 - year: 2026
   items:
-    - authors: "Courtney N. Reed, Marta Ferreira, Mónica Mendes, Pedro Galvão-Ferreira, Marion Koelle, Alice C Haynes, Fiona Bell, Alexandra Teixeira Riggs, Laia Turmo Vidal, Mathilde Gouin, Vineetha Rallabandi, and Karen Anne Cochrane"
+
+    - authors: "June Kuhn, Byuka Makodru, Courtney N. Reed, Adam Schmidt"
+      title: "Connecting to Ground: A Séance in the Wick Woodlands"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Kuhn_NIME2026_ConnectingGround.pdf"
+
+    - authors: "Benedict R. Gaster, Nathan Renney, Courtney N. Reed, Rodrigo Constanzo, Jasmine Butt, Maisie Palmer, Laddy Cadavid Hinojosa, Kathy Hinde, Sarah Angliss, Atau Tanaka, Tom Mitchell"
+      title: "radical interaction: a podcast of interaction exchange"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Gaster_NIME2026_radicalinteraction.pdf"
+
+    - authors: "Erik Løvaas, Courtney N. Reed, Paul Strohmeier"
+      title: "Towards Sensory Attenuation as a Measure of Agency Provided by Digital Musical Instruments"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Lovaas_NIME2026_SensoryAttenuation.pdf"
+
+    - authors: "Luiz Ribeiro Fonseca, Thiago Albuquerque, Albery Albuquerque, Courtney N. Reed"
+      title: "Listening to Amazônia Verde Viva: Transmorphic Intersections of Ecology and Music Technology in the Global South"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "RibeiroFonseca_NIME2026_AmazoniaVerdeViva.pdf"
+
+    - authors: "Charles Martin, Yichen Wang, Pia van Gelder, Doga Cavdir, Fabio Morreale, Andrew McPherson, Juan Avila, Stefano Fasciani, Courtney N. Reed"
+      title: "Future NIME Leaders Workshop"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Martin_NIME2026_FutureLeaders.pdf"
+
+    - authors: "Charalampos Saitis, Fabio Morreale, Landon Morrison, Ashley Noel-Hirst, Rebecca Fiebrink, Joseph Meyer, Courtney N. Reed"
+      title: "From Tacit to Tokenised: Critical Perspectives on AI Text-to-Audio Interfaces"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Saitis_NIME2026_TacitTokenised.pdf"
+
+    - authors: "Ania Mokrzycka, Luiz Ribeiro Fonseca, Karina Townsend, Vitória Croda, Ines Nolasco, Courtney N. Reed"
+      title: "The Third Bank of the River Lea: Listening to Waterbodies in East London"
+      venue: "Proceedings of the International Conference on New Interfaces in Musical Expression (NIME '26)"
+      doi: ""
+      pdf: "Mokrzycka_NIME2026_ThirdBank.pdf"
+
+    - authors: "Courtney N. Reed, Marta Ferreira, Mónica Mendes, Pedro Galvão-Ferreira, Marion Koelle, Alice C Haynes, Fiona Bell, Alexandra Teixeira Riggs, Laia Turmo Vidal, Mathilde Gouin, Vineetha Rallabandi, Karen Anne Cochrane"
       title: "In-Situ Seeding: Entangling Place & Technology through Sensory Data Dialogues"
-      venue: "Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '26')"
+      venue: "Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '26)"
       doi: "10.1145/3731459.3774489"
       pdf: "Reed_TEI26_DataDialogues.pdf"
-
-    # - authors: "Authors"
-    #   title: "Title 1"
-    #   venue: "Publication info" 
-    #   doi: "https://doi.org/10.xxxx/example1"
 
 # - year: 2025
 #   items:

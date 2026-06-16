@@ -31,7 +31,23 @@ layout: default
         		<li class="pub-item fade-in"
     				style="transition-delay: {{ forloop.index0 | times: 0.08 }}s;">
 
-				  	<span class="pub-authors">{{ pub.authors }}.</span>
+            {% assign authors = pub.authors | split: ", " %}
+
+            <span class="pub-authors">
+              {% for author in authors %}
+                {% assign clean_author = author | strip %}
+
+                {% if site.lab_members contains clean_author %}
+                  <span class="lab-author">{{ clean_author }}</span>,
+                {% else %}
+                  <span class="author">{{ clean_author }}</span>,
+                {% endif %}
+                <!-- {% if forloop.last %}.{% else %}, {% endif %} -->
+              {% endfor %}
+            </span>
+
+				  	<!-- <span class="pub-authors">{{ pub.authors }}.</span> -->
+
             <span class="pub-year">{{ year.year }}.</span>
 				 	  <span class="pub-title">{{ pub.title }}.</span>
 				  	<span class="pub-venue">{{ pub.venue }}.</span>

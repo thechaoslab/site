@@ -332,3 +332,9 @@ defaults:
       share: true
       related: true
 
+# Lab Members (for pub list)
+lab_members:
+  - "Courtney N. Reed"
+  - "Luiz Ribeiro Fonseca"
+  - "Ania Mokrzycka"
+  - "Vitória Croda"
