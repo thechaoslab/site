@@ -1,7 +1,7 @@
 - name: Dr Courtney N. Reed (she/her) 
   role: Lecturer (Assistant Professor) in Digital Technologies & Creative Futures
-  interests: Voice, Human-Computer Interaction (HCI), wearables, biosensing, digital enculturation, metaphors
-  image:
+  interests: Voice, Human-Computer Interaction (HCI), Wearables, Biosensing, Digital Enculturation, Metaphors
+  image: /assets/images/people/court.svg
   url: https://www.courtneynreed.com/
   linkedin: https://www.linkedin.com/in/courtneynreed
 
@@ -9,22 +9,23 @@
   role: PhD Student in Creative Futures
   years: 2024 -
   supervisors: Dr Pandora Syperek (primary), Dr Amalia Sabiescu
-  interests: 
+  interests: Chaos
   image: 
-  link:
+  url:
 
 - name: Luiz Ribeiro Fonseca (he/him)
   role: PhD Student in Creative Futures
   years: 2025 -
   supervisors: Prof Jo Tacchi, Dr Ana Suzina
-  interests: 
-  image:
-  link:
+  interests: Postcolonial and Decolonial Studies, Sound Studies, Music and Communication, Co-creative Methodologies
+  image: /assets/images/people/luiz.svg
+  url: https://www.lborolondon.ac.uk/staff/doctoral-researchers/luiz-ribeiro-fonseca/
+  linkedin: https://www.linkedin.com/in/luizribeirofonseca/
 
 - name: Vitória Croda (she/her)
   role: PhD Student in Creative Futures
   years: 2025 -
   supervisors: Dr Jessica Noske-Turner (primary), Prof Ksenia Chmutina
-  interests: 
+  interests: Chaos
   image:
-  link:
+  url:

@@ -1,4 +1,6 @@
-<div class="person-row">
+{% assign is_odd = include.index | modulo: 2 %}
+
+<div class="person-row {% if is_odd == 1 %}reverse{% endif %}">
   
   <div class="quad-box shape-{{ include.index | modulo: 4 | plus: 1 }} green-{{ include.index | modulo: 3 | plus: 1 }}">
     <div class="person-text">
